@@ -1,7 +1,5 @@
 //QUESTION : 34
 
-import { log } from "console";
-
 let pizzaList: string[] = [
   "Chicken pizza",
   "Tikka pizza",
@@ -10,7 +8,6 @@ let pizzaList: string[] = [
   "Tandoori pizza",
   "Beef pizza",
 ];
-
 pizzaList.forEach((pizza) => {
   console.log(`${pizza} is my favorite pizza`);
 });
